@@ -38,8 +38,8 @@
     font-family: sans-serif;
 }
 .proj-text-container{
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 140px;
+    padding-right: 140px;
 }
 .proj-heading-para{
     font-size:20px;
@@ -130,7 +130,8 @@
 
   .about-work-links:hover{
     color:#C7C7C7;
-    color:#000
+    color:#000;
+    transition-duration: 0.5s
 }
 
 .blue-links{
@@ -143,6 +144,7 @@
     height:30px;
     color:#42BFFF;
     border:#42BFFF 1px solid;
+    border-radius: 2px;
     background-color: #FFF;
     cursor: pointer
 }
@@ -150,6 +152,7 @@
 .proj-buttons:hover{
     color:#FFF;
     background-color: #42BFFF;
+    transition-duration: 0.5s
 }
 
 .project-heading{
